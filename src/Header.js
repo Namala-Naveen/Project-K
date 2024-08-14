@@ -8,7 +8,7 @@ function Header() {
       <div className='navbar'>
         <img src={logo} alt="" className='App-logo'/>
         <ul>
-          <li>Username</li>
+          <li>SignUp</li>
           <li>About</li>
           <li>Contact</li>
         </ul>
