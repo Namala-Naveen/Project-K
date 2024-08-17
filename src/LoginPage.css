@@ -1,0 +1,41 @@
+.loginsignup{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+.loginsignup.active{
+    height: 700px;
+    overflow: auto;
+}
+.loginsignup .logincontainer{
+    transition: translate .2s ease;
+    translate: 0;
+}
+
+.loginsignup.active .logincontainer{
+    transition: none;
+    translate: -600px;
+}
+.logincontainer{
+    border: 2px groove whitesmoke;
+    padding: 40px;
+    border-radius: 5%;
+}
+
+.signupcontainer{
+    position: absolute;
+    border: 2px groove whitesmoke;
+    padding: 20px;
+    border-radius: 5%;
+    transition: none;
+    width: 100%;
+    translate: 500px;
+}
+
+.loginsignup.active .signupcontainer{
+    transition: translate .2s ease;
+    translate: 0;
+}
